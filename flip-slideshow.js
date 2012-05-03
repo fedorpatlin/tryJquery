@@ -16,6 +16,7 @@
 				ul.html(ul.html()+"<li id="+"slide-"+i+"><img class=\"slides\" src="+image.url+ "></img></li>")        		
         	}
         }
+        root.slides.css()
         return root;
     }
     
