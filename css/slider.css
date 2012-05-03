@@ -1,0 +1,16 @@
+#sliderContainer{
+	height:300px;
+	width:900px
+}
+
+#background{
+	height:300px;
+	width:900px;
+	background-image:url("/home/fedor/picoUPS-100-big2.jpg");
+	background-repeat: no-repeat
+}
+
+.slides{
+	height:300px;
+	width:900px
+}

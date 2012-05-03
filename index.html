@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script src="jquery-1.2.6.min.js" type="application/javascript"></script>
+        <script src="flip-slideshow.js" type="application/javascript"></script>>
+        <link rel="stylesheet" href="css/slider.css"/>
+        <title>New Web Project</title>
+    </head>
+    <body>
+        <h1>New Web Project Page</h1>
+        <div id="sliderContainer">
+        	<ul id="list-of-slides">
+        		<li id="slide-1">
+        			<div id="background"></div>
+        		</li>
+        	</ul>
+        </div>
+        <script language="javascript">
+        	var oldHtml=$("#slide-1").html();
+        	$("#slide-1").html("<p>hello-world!</p>"+oldHtml);
+        	var slideshow=$("#sliderContainer").jMask("{width:900, height:300}", ["{\"url\":\"img/picoUPS-100-big2.jpg\", \"name\":\"image1\"}","{\"url\":\"img/gimage_730.jpg\", \"name\":\"image2\"}"]);
+        </script>
+    </body>
+</html>
