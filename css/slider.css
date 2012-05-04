@@ -1,6 +1,24 @@
+.top{
+	z-index: 10;
+	position: absolute;
+}
+
+.rest{
+	z-index: 1;
+	position: absolute;
+}
+
 #sliderContainer{
 	height:300px;
 	width:900px
+}
+
+#slideShow{
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	float:left
 }
 
 #background{
@@ -11,6 +29,5 @@
 }
 
 .slides{
-	height:300px;
-	width:900px
+	position: absolute
 }
